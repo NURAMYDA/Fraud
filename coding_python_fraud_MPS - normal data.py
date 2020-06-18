@@ -172,7 +172,7 @@ data_target.info()
 #use splitting ratio of 50:50, 60:40, 70:30, 80:20, 90:10
 from sklearn.model_selection import train_test_split
 np.random.seed(123)
-X_train, X_test, y_train, y_test = train_test_split(data_features,    data_target, train_size=0.90, test_size=0.10, random_state=1)
+X_train, X_test, y_train, y_test = train_test_split(data_features,    data_target, train_size=0.70, test_size=0.30, random_state=1)
 
 
 
